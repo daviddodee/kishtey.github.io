@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri:600');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+
+
+.phone__adv{
+	background-color: rgba( 255, 0, 0, 0.5) ;
+	background:url('../img/phones_bg_3.jpg') no-repeat center center;
+	background-attachment: fixed; 
+	background-size: cover;
+	opacity: 0.7;	  
+	height:500px;
+}
+
+.main__title{
+	margin-top: 10%;
+}
+
+.main__title h1{
+	color:white;
+	text-align: center;
+}
+
+.order_b {
+	margin-top: 12%;
+	text-align: center;
+
+}
+
+.order_b a{
+	background: rgb(101, 95, 153); 
+	padding: 15px;
+	font-size: 2em;
+	text-decoration: none;
+	border-radius: 15px;
+	color: white;
+	border: 1px solid black;
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+
+.order_b a:hover { background: rgb(46, 45, 48);
+}
+.order_b a:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.phone__types{
+	background-color: #f3f3f3;
+	height: 140px;
+	padding: 5px 5px;
+}
+.title_sec{
+	margin-top: 2%;
+	text-align: center;
+	margin-bottom: 220px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.phone_list{
+	background-color: rgb(253, 253, 253);
+}
+.phone_list h2{
+	color: #333333;
+}
+.row img{
+      display: block;
+      margin: 0 auto; 
+}
+.iphones__item{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.iphones{
+	text-align: center;
+	text-decoration: none;
+}
+.iphones h4{
+color: black;
+}
+
+.iphones__item{
+	-moz-transition: all 0.5s ease-out;
+ 	-o-transition: all 0.5s ease-out;
+ 	-webkit-transition: all 0.5s ease-out;
+}
+.iphones__item img{
+	padding: 0;
+	margin: 0 auto;
+}
+.iphones__item:hover{
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.05);
+  	box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+
+.iphones__item button{
+  width: 100%;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif; 
+  margin-top: 10px;
+  font-size: .8em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.zakaz{
+	background:rgb(83, 194, 85);
+	font-size: .8em;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+}
+.zakaz:hover{
+	background: rgb(28, 173, 47);
+}
+
+
+
+.modal-body img{
+	padding: 0;
+	margin: 0 auto;
+}
+.modal-body h4, h5{
+	text-align: center;
+}
+
+.iphones__item h4{
+	font-size: 1.1em;
+}
+
+.price{
+	font-size: 1.4em;
+	font-weight: 700;
+}	
+.price_red{
+	font-size: 1em;
+	color: rgb(201, 60, 60);
+	text-decoration: line-through;
+}
+hr{
+	margin-top: 10px;
+}
+.pluses1{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: background:url('../img/all_iphones.jpg') no-repeat center center;
+}
+.pluses2{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: yellow;
+}
+.pluses3{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: orange;
+}
+.pluses4{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: blue;
+}
+.all_iphones_pic{
+	
+}
+.all_iphones_pic1 p{
+	margin-top: 25px;
+}
+.all_iphones_pic2 p{
+	margin-top: 25px;
+}
+.all_iphones_pic3 p{
+	margin-top: 25px;
+}
+.all_iphones_pic4 p{
+	margin-top: 25px;
+}
